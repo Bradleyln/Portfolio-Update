@@ -1,0 +1,401 @@
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+/****************************************************
+					Jumbotron
+*****************************************************/
+
+.jumbotron {
+	background-image: url("../images/placeholder.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	height: 91vh;
+	margin-bottom: 2px;
+}
+
+.logo {
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	color: #FFF;
+}
+
+.logo h1 {
+	text-shadow: 1.2px 1.2px #333;
+	font-size: 50px;
+}
+
+.logo p {
+	text-shadow: .6px .6px #333;
+	font-size: 20px;
+}
+
+/****************************************************
+					NavBar
+*****************************************************/
+
+a {
+	color: #009FAD;
+}
+
+.hover-light:hover {
+	color: #333;
+}
+
+.padding5 {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+/****************************************************
+					Resume Modal
+*****************************************************/
+
+.mtb-10 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.glyphicon-education {
+	font-size: 25px;
+}
+
+.glyphicon-folder-open {
+	font-size: 18px;
+}
+
+.glyphicon-briefcase {
+	font-size: 20px;
+}
+
+.toggle {
+	color: #009FAD;
+	cursor: pointer;
+}
+
+#about h3 {
+	color: #009FAD;
+}
+
+#profile_image img {
+	border-radius: 50%;
+	height: 130px;
+}
+
+#resumeModal a {
+	padding: 0px 7px 0px 7px;
+}
+
+#resumeModal h5 {
+	font-weight: bolder;
+	margin-top: 5px;
+}
+
+#resumeModal p {
+	margin-bottom: 5px;
+}
+
+#resumeModal .row {
+	margin-top: 5px;
+}
+
+/****************************************************
+					Who I AM
+*****************************************************/
+
+.row-height {
+	height: 99vh;
+	padding-top: 1%;
+}
+
+.row-heightHalf {
+	height: 200px;	
+}
+
+.paddingZero {
+	padding: 0px;
+}
+
+.paddingRight {
+	padding: 0px 4px 0px 0px;
+}
+
+.paddingTopRight {
+	padding: 4px 4px 0px 0px;
+}
+
+.paddingTop {
+	padding: 4px 0px 0px 0px;
+}
+
+.relativeP {
+	position: relative;
+}
+
+.noOverflow {
+	overflow: hidden;
+}
+
+.slide_in_Text {
+	opacity: 0;
+	background: rgba(0, 0, 0, 0.5);
+	padding: 40% 4%; 
+	height: 100%;
+	width: 100%;
+    width: 100%;
+    color: white;
+    transition: all 0.6s ease-in-out;
+}
+
+.slide_in:hover .slide_in_Text {
+	opacity: 1;
+}
+
+#whoMobile {
+	display: none;
+}
+
+#profilePic {
+	display: none;
+	background-image: url("../images/coffee.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#dogPark {
+	background-image: url("../images/bubble.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+#highLine {
+	display: none;
+	background-image: url("../images/matrix.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#cofeve {
+	display: none;
+	background-image: url("../images/cups.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#mountains {
+	display: none;
+	background-image: url("../images/web.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+/****************************************************
+					PORTFOLIO
+*****************************************************/
+
+.card {
+	margin: 0 auto;
+}
+
+.mt-60 {
+	margin-top: 60px;
+}
+
+.mb-80 {
+	margin-bottom: 80px;
+}
+
+/*.mb40 {
+	margin-bottom: 40px;
+}*/
+
+#portBanner {
+	width: 100%;
+}
+
+#portBackground {
+	background-image: url("../images/tyedie.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+#portfolio a {
+	color: #009FAD;
+}
+
+/****************************************************
+					Footer
+*****************************************************/
+
+footer {
+	height: auto;
+	padding: 15px 0 15px 0;
+	color: #009FAD;
+	background: #333;
+}
+
+footer a {
+	color: #F7F7F9;
+}
+
+footer a:hover {
+	cursor: pointer;
+	text-decoration: none;
+}
+
+footer a:visited {
+	color: #F7F7F9;
+}
+
+footer hr {
+	margin-top: 0px;;
+	margin-bottom: 10px
+}
+
+.glyphicon-envelope {
+	font-size: 58px;
+	color: #C9CACC;
+	padding-right: 7px;
+}
+
+.glyphicon-phone-alt {
+	top: -4px;
+	font-size: 53px;
+	color: #C9CACC;
+	padding-right: 7px;
+}
+
+#projectListOne div, p{
+	padding-left: 5px;
+}
+
+#projectListTwo div, p{
+	padding-left: 5px;
+}
+
+#projectListTwo {
+	padding-top: 40px;
+}
+
+#git {
+	position: relative;
+	top: -25px;
+	width: 60px;
+	padding-right: 7px;
+}
+
+#link {
+	position: relative;
+	top: -25px;
+	width: 59px;
+}
+
+#socialLinks {
+    padding-left: 10px;
+    padding-bottom: 30px;
+}
+
+#copyright {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: #888;
+	text-align: center;
+}
+
+
+/**************************************
+		  Media Queries 
+**************************************/
+
+
+@media screen and (min-width: 565px) {
+	.jumbotron h1 {
+		font-size: 60px;
+	}
+}
+
+
+@media screen and (min-width: 768px) {
+	footer .row div{
+		text-align: left;
+	}
+
+	.jumbotron {
+		background-image: url("../images/citybackgroung.jpg");
+	    height: 92vh;
+	}
+
+	.logo {
+		top: 40%;
+	}
+
+	.logo h1 {
+		font-size: 90px;
+	}
+
+	.logo p {
+		font-size: 25px;
+	}
+
+	.height-vh {
+		height: 99vh;
+		padding-top: 1%;
+	}
+
+	.row-height {
+		height: 604px;
+		padding-top: 0px;
+	}	
+
+	.row-heightHalf {
+		height: 300px;	
+	}
+
+	.glyphicon-envelope {
+		font-size: 46px;
+	}
+
+	.glyphicon-phone-alt {
+		font-size: 45px;
+	}
+
+	#whoMobile, #profilePic, #highLine, #cofeve, #mountains {
+		display: inherit;
+	}
+
+	#dogPark {
+		background-attachment: scroll;
+	}
+
+	#git {
+		width: 50px;
+		top: -21px;
+		padding-right: 5px;
+	}
+
+	#link {
+		width: 50px;
+		top: -21px;
+	}
+
+	#projectListTwo {
+		padding-top: 0px;
+	}
+
+	#cofeve, #profilePic {
+		display: inherit;
+	}
+
+}
